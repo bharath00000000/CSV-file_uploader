@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+}
+h1{
+    color:#333;
+    text-align: center;
+}
+.file-input-container{
+    display:block;
+    margin:10px 0;
+    padding:10px;
+    background-color:rgb(19, 128, 19);
+    border:none;
+    box-shadow: 1px 2px 3px #ccc;
+    border-radius: 5px;
+    cursor:pointer;
+    text-align: center;
+    color:white;
+}
+#fileInput{
+    display:none;
+
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:20px;
+}
+th,td{
+    border:1px solid #ddd;
+    padding:8px;
+    text-align: left;
+}
+th{
+    background-color: #f2f2f2;
+}
